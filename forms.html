@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <forms>
+        <label>first name</label>
+        <input type="text">
+        <br></br>
+        <!-- <label>first name</label> -->
+        <input type="text">
+        <br></br>
+        <!-- label displays the first name 
+         for connects the label into the input
+         id identifies the input -->
+        <label for="firstname">first name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="enter your first name">
+        <!-- in 1 and 2 label the diff is the first name is not connected to input in 1 
+         that is if we click first name the cursor will not automatically move into
+         the box while in 2 it does 
+         paceholder is an attribute not a function -->
+         <br></br>
+
+         <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="email">
+         <br></br>
+
+         <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <!-- type = password keeps the entered text hiddden  -->
+         <br></br>
+
+         <label for="DOB">Date of birth</label>
+        <input type="DOB" id="DOB" name="DOB">
+         <br></br>
+         <label for="DOB">Date of birth</label>
+        <input type="date" id="DOB" name="DOB">
+        <br></br>
+        <label for="number">Number</label>
+        <input type="number" id="number" name="number">
+        <br></br>
+        <!-- if type=text then it will take it as text but if we put number in type then it will take it as number -->
+        <label for="index.html">upload your resume</label>
+        <input type="file" id="index.html" name="index.html">
+        <br></br>
+        <p>Select Gender</p>
+         <label for="female">female</label>
+        <input type="radio" name="gender"value="female"id="female">
+         <label for="male">male</label>
+        <input type="radio" name="gender"value="male"id="male">
+        <br></br>
+        <!-- radio allows only one option to choose -->
+         <p>Select Subjects</p>
+         <label for="maths">Maths</label>
+        <input type="checkbox" name="subject"value="maths"id="maths">
+         <label for="science">Science</label>
+        <input type="checkbox" name="subject"value="science"id="science">
+        <br>
+        <!-- checkbox allows multilpe options to choose -->
+        <label for="course">select course</label>
+        <select id="course"name="course">
+            <option value="bca">BCA</option>
+            <option value="mca">MCA</option>
+            </select>
+            <br>
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea>
+    <!-- </forms> -->
+    <!-- <forms> -->
+        
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="DOB">Date of birth</label>
+        <input type="DOB" id="DOB" name="DOB">
+         <br></br>
+         <label for="DOB">Date of birth</label>
+        <input type="date" id="DOB" name="DOB">
+        <br></br>
+        <label for="number">Number</label>
+        <input type="number" id="number" name="number">
+        <br></br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Educational information</legend>
+            <p>Select Subjects</p>
+         <label for="maths">Maths</label>
+        <input type="checkbox" name="subject"value="maths"id="maths">
+         <label for="science">Science</label>
+        <input type="checkbox" name="subject"value="science"id="science">
+
+
+        </fieldset>
+        <button type="submit">Submit</button>
+        <!-- <input type="submit"value="Submit"> -->
+        <!-- fieldset is to group the elements in the form
+         legend is to give headings over particular group -->
+    </forms>
+</body>
+</html>
+<!-- radio button select only one option
+   checkbox select multiple option
+   submit button to submit the form
+   type identifies the type of input data
+   <br> for onle line break
+   <br></br> for more vertical space 
+   name  
+   similarly value
+   div and span-->
