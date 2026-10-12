@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>India | Explore Indian Culture</title>
+
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">🇮🇳 Sanskriti India</a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#festivals">Festivals</a></li>
+                <li><a href="#heritage">Heritage</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="themeBtn" class="theme-btn" aria-label="Toggle dark mode">
+                🌙
+            </button>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="eyebrow">DISCOVER THE SOUL OF INDIA</p>
+
+            <h1>One Nation.<br>
+                <span>Many Cultures.</span>
+            </h1>
+
+            <p>
+                Experience the vibrant festivals, timeless traditions,
+                magnificent heritage, and incredible diversity of India.
+            </p>
+
+            <a href="#festivals" class="primary-btn">
+                Explore Festivals →
+            </a>
+        </div>
+
+        <div class="hero-symbol">
+            <span>🪔</span>
+            <h2>अतिथि देवो भवः</h2>
+            <p>Our traditions, our pride.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Introduction -->
+    <section class="intro section-padding">
+
+        <p class="eyebrow">OUR INCREDIBLE INDIA</p>
+
+        <h2>A Land of Celebrations</h2>
+
+        <p class="intro-text">
+            India is a beautiful blend of languages, religions, traditions,
+            art, and celebrations. Every festival tells a story, every
+            monument holds a memory, and every region has something unique
+            to share with the world.
+        </p>
+
+        <div class="stats">
+
+            <div class="stat-card">
+                <h3>28</h3>
+                <p>States</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>∞</h3>
+                <p>Traditions</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>365</h3>
+                <p>Days of Culture</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Festivals Section -->
+    <section class="festivals section-padding" id="festivals">
+
+        <div class="section-heading">
+            <p class="eyebrow">CELEBRATE TOGETHER</p>
+
+            <h2>Festivals of India</h2>
+
+            <p>
+                Discover the stories and traditions behind India's
+                most beloved celebrations.
+            </p>
+        </div>
+
+
+        <!-- Search Box -->
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search festivals... e.g. Holi"
+                aria-label="Search festivals"
+            >
+
+            <button id="searchBtn">Search</button>
+
+        </div>
+
+
+        <!-- Festival Cards -->
+        <div class="festival-grid" id="festivalGrid">
+
+            <article class="festival-card"
+                data-name="diwali deepavali festival of lights">
+
+                <div class="festival-image diwali-img">
+                    <img
+                        src="https://images.unsplash.com/photo-1605640840605-14ac1855827b?auto=format&fit=crop&w=800&q=80"
+                        alt="Diwali lamps and festive lights"
+                        loading="lazy"
+                    >
+                    <span class="festival-emoji">🪔</span>
+                </div>
+
+                <div class="card-content">
+                    <span class="tag">Festival of Lights</span>
+
+                    <h3>Diwali</h3>
+
+                    <p>
+                        Celebrate the victory of light over darkness
+                        with diyas, decorations, sweets, and joy.
+                    </p>
+
+                    <button class="read-btn"
+                        data-title="Diwali"
+                        data-info="Diwali, also known as Deepavali, symbolizes the victory of light over darkness and good over evil. Families decorate their homes, light diyas, exchange sweets, and celebrate together. Customs vary across regions and communities.">
+                        Discover More →
+                    </button>
+                </div>
+
+            </article>
+
+
+            <article class="festival-card"
+                data-name="holi festival of colours colors">
+
+                <div class="festival-image holi-img">
+                    <img
+                        src="https://images.unsplash.com/photo-1616422285623-13ff0162193c?auto=format&fit=crop&w=800&q=80"
+                        alt="People celebrating Holi"
+                        loading="lazy"
+                    >
+                    <span class="festival-emoji">🎨</span>
+                </div>
+
+                <div class="card-content">
+                    <span class="tag">Festival of Colours</span>
+
+                    <h3>Holi</h3>
+
+                    <p>
+                        Welcome spring with colours, music, traditional
+                        sweets, and joyful celebrations.
+                    </p>
+
+                    <button class="read-btn"
+                        data-title="Holi"
+                        data-info="Holi is a popular Indian festival associated with spring, joy, and the triumph of good over evil. Celebrations often include Holika Dahan, coloured powders, music, and traditional sweets.">
+                        Discover More →
+                    </button>
+                </div>
+
+            </article>
+
+
+            <article class="festival-card"
+                data-name="durga puja navratri worship">
+
+                <div class="festival-image durga-img">
+                    <img
+                        src="https://images.unsplash.com/photo-1604608672516-8c9d8c4c4c7c?auto=format&fit=crop&w=800&q=80"
+                        alt="Indian festive decorations"
+                        loading="lazy"
+                    >
+                    <span class="festival-emoji">🙏</span>
+                </div>
+
+                <div class="card-content">
+                    <span class="tag">Celebrating Goddess Durga</span>
+
+                    <h3>Durga Puja</h3>
+
+                    <p>
+                        Experience artistic pandals, cultural performances,
+                        devotion, and community celebrations.
+                    </p>
+
+                    <button class="read-btn"
+                        data-title="Durga Puja"
+                        data-info="Durga Puja is celebrated with great enthusiasm, especially in West Bengal. It honours Goddess Durga and symbolizes the triumph of good over evil. Elaborate pandals, artistic idols, music, and community gatherings are important features.">
+                        Discover More →
+                    </button>
+                </div>
+
+            </article>
+
+
+            <article class="festival-card"
+                data-name="eid ul fitr eid muslim celebration">
+
+                <div class="festival-image eid-img">
+                    <img
+                        src="https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=800&q=80"
+                        alt="Beautiful Islamic architectural heritage"
+                        loading="lazy"
+                    >
+                    <span class="festival-emoji">🌙</span>
+                </div>
+
+                <div class="card-content">
+                    <span class="tag">Festival of Togetherness</span>
+
+                    <h3>Eid-ul-Fitr</h3>
+
+                    <p>
+                        A celebration of gratitude, generosity,
+                        prayer, family, and sharing with others.
+                    </p>
+
+                    <button class="read-btn"
+                        data-title="Eid-ul-Fitr"
+                        data-info="Eid-ul-Fitr marks the end of Ramadan, a month of fasting and reflection for Muslims. The celebration includes special prayers, family gatherings, festive meals, giving to those in need, and exchanging greetings.">
+                        Discover More →
+                    </button>
+                </div>
+
+            </article>
+
+
+            <article class="festival-card"
+                data-name="christmas christian festival">
+
+                <div class="festival-image christmas-img">
+                    <img
+                        src="https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=800&q=80"
+                        alt="Christmas decorations and festive lights"
+                        loading="lazy"
+                    >
+                    <span class="festival-emoji">🎄</span>
+                </div>
+
+                <div class="card-content">
+                    <span class="tag">Season of Giving</span>
+
+                    <h3>Christmas</h3>
+
+                    <p>
+                        Celebrate love, kindness, and togetherness
+                        with decorations, music, and festive treats.
+                    </p>
+
+                    <button class="read-btn"
+                        data-title="Christmas"
+                        data-info="Christmas is celebrated on 25 December by Christians to commemorate the birth of Jesus Christ. Churches hold special services, homes are decorated, and people exchange gifts and share festive meals.">
+                        Discover More →
+                    </button>
+                </div>
+
+            </article>
+
+
+            <article class="festival-card"
+                data-name="baisakhi vaisakhi punjab harvest">
+
+                <div class="festival-image baisakhi-img">
+                    <img
+                        src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80"
+                        alt="Indian cultural celebration"
+                        loading="lazy"
+                    >
+                    <span class="festival-emoji">🌾</span>
+                </div>
+
+                <div class="card-content">
+                    <span class="tag">Harvest Celebration</span>
+
+                    <h3>Baisakhi</h3>
+
+                    <p>
+                        Celebrate Punjab's harvest season with traditional
+                        music, bhangra, and community gatherings.
+                    </p>
+
+                    <button class="read-btn"
+                        data-title="Baisakhi"
+                        data-info="Baisakhi is an important festival in Punjab, associated with the harvest season. It also commemorates the formation of the Khalsa in Sikh history. Celebrations may include prayers, fairs, traditional music, and bhangra.">
+                        Discover More →
+                    </button>
+                </div>
+
+            </article>
+
+        </div>
+
+        <p id="noResults" class="no-results" hidden>
+            No festivals found. Try another search!
+        </p>
+
+    </section>
+
+
+    <!-- Heritage Section -->
+    <section class="heritage section-padding" id="heritage">
+
+        <div class="section-heading">
+            <p class="eyebrow">HISTORY THAT INSPIRES</p>
+
+            <h2>Timeless Indian Heritage</h2>
+
+            <p>
+                Explore architectural wonders that reflect India's
+                extraordinary history and craftsmanship.
+            </p>
+        </div>
+
+
+        <div class="heritage-grid">
+
+            <article class="heritage-card">
+                <img
+                    src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80"
+                    alt="Taj Mahal monument"
+                    loading="lazy"
+                >
+
+                <div class="heritage-overlay">
+                    <span>Agra, Uttar Pradesh</span>
+                    <h3>Taj Mahal</h3>
+                    <p>A masterpiece of Mughal architecture.</p>
+                </div>
+            </article>
+
+
+            <article class="heritage-card">
+                <img
+                    src="https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&w=1000&q=80"
+                    alt="Historic Indian palace"
+                    loading="lazy"
+                >
+
+                <div class="heritage-overlay">
+                    <span>Rajasthan</span>
+                    <h3>Royal Heritage</h3>
+                    <p>Discover magnificent palaces and forts.</p>
+                </div>
+            </article>
+
+
+            <article class="heritage-card">
+                <img
+                    src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
+                    alt="Historic Indian temple architecture"
+                    loading="lazy"
+                >
+
+                <div class="heritage-overlay">
+                    <span>Ancient India</span>
+                    <h3>Temple Architecture</h3>
+                    <p>Explore India's artistic and spiritual legacy.</p>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Culture Section -->
+    <section class="culture section-padding" id="culture">
+
+        <div class="section-heading">
+            <p class="eyebrow">UNITY IN DIVERSITY</p>
+
+            <h2>Every Region Has a Story</h2>
+
+            <p>
+                India's cultural identity shines through its food,
+                clothing, art, languages, and traditions.
+            </p>
+        </div>
+
+
+        <div class="culture-grid">
+
+            <div class="culture-card">
+                <span>🍛</span>
+                <h3>Traditional Cuisine</h3>
+                <p>From Punjabi food to South Indian delicacies.</p>
+            </div>
+
+            <div class="culture-card">
+                <span>👘</span>
+                <h3>Traditional Clothing</h3>
+                <p>Sarees, lehengas, dhotis, turbans, and more.</p>
+            </div>
+
+            <div class="culture-card">
+                <span>💃</span>
+                <h3>Dance & Music</h3>
+                <p>Discover Bharatanatyam, Kathak, Bhangra, and folk music.</p>
+            </div>
+
+            <div class="culture-card">
+                <span>🎨</span>
+                <h3>Art & Handicrafts</h3>
+                <p>Explore Madhubani, Warli, pottery, and local crafts.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+
+        <div class="section-heading">
+            <p class="eyebrow">LET'S CONNECT</p>
+
+            <h2>Share Your Cultural Story</h2>
+
+            <p>
+                Tell us about a festival or tradition that makes
+                your region special.
+            </p>
+        </div>
+
+
+        <form id="contactForm" class="contact-form">
+
+            <label for="name">Your Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="email">Your Email</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="message">Your Cultural Story</label>
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Tell us about your favourite festival..."
+                required
+            ></textarea>
+
+            <button type="submit" class="primary-btn">
+                Submit Story →
+            </button>
+
+            <p id="formMessage" role="status"></p>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>🇮🇳 Sanskriti India</h2>
+
+        <p>Celebrating India's heritage, one tradition at a time.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#festivals">Festivals</a>
+            <a href="#heritage">Heritage</a>
+            <a href="#culture">Culture</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Sanskriti India | Created for Web Development MSE
+        </p>
+
+    </footer>
+
+
+    <!-- Festival Information Modal -->
+    <div class="modal" id="festivalModal" role="dialog"
+        aria-modal="true" aria-labelledby="modalTitle" hidden>
+
+        <div class="modal-content">
+
+            <button id="closeModal" class="close-modal"
+                aria-label="Close popup">×</button>
+
+            <span>✨ Discover Indian Culture</span>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalInfo"></p>
+
+            <button id="modalOk" class="primary-btn">
+                Wonderful!
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
